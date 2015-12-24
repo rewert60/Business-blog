@@ -1,0 +1,602 @@
+@font-face {
+  font-family: aglettericacondl;
+  src: url(aglettericacondl.otf) format("opentype");
+}
+@font-face {
+  font-family: futura;
+  src: url(futura.otf) format("opentype");
+}
+body{
+    background-color: #0F1518;
+}
+#top-gradient{    
+    width: 100%;
+    height: 550px;  
+    background: linear-gradient(to bottom, #192229, #0F1518); 
+     
+}
+
+#page{
+    height: auto;
+    width: 100%;   
+    position: absolute;      
+    margin: auto;   
+}
+#block-main{
+    width: 1000px;
+    height: auto;
+    min-height: 400px;
+    margin: auto;    
+}
+#logo{
+    margin-left: 95px;
+    margin-top: 32px;
+}
+#menu1{
+    float: right;
+    margin-right: 100px;
+    margin-top: 14px;
+}
+#menu1 li{
+    float: left;
+    font: 12px sans-serif;
+    color: #304653;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#menu1 li.home{    
+    color: #536D7D;    
+}
+#menu1 a:hover{
+    color: #536D7D;
+}
+#form-search{
+    margin-top: -38px;
+    margin-right: 85px;
+}
+
+#form-search input#input-search{
+    border: 1px solid #28353F;
+    height: 20px;
+    width: 180px;
+    border-radius: 5px;
+    background: #000000 !important;    
+    padding-left: 6px;
+    padding-top: 1px;
+    font: 12px sans-serif;
+    color: #6E90A4;
+    margin-bottom: 0;
+}
+#form-search input#input-search::-webkit-input-placeholder{color: #6E90A4;}
+#form-search input#input-search::-webkit-input-placeholder {color:#6E90A4;}
+#form-search input#input-search::-moz-placeholder          {color:#6E90A4;}
+#form-search input#input-search:-moz-placeholder           {color:#6E90A4;}
+#form-search input#input-search:-ms-input-placeholder      {color:#6E90A4;}
+
+#form-search input[type="submit"]{
+    width: 28px;
+    height: 20px;
+    border: 1px solid #202C34;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #273942, #1A242A);
+    font: 11px sans-serif;
+    color: #D3D3D4;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+#form-search input[type="submit"]:hover{
+    background: #273942;
+}
+#form-search input[type="submit"]:active{
+    background: #1A242A;
+}
+#advanced{
+    margin-right: 40px;
+    margin-top: 5px;
+}
+#advanced-search{
+    text-decoration: none;
+    font: 13px sans-serif;
+    color: #6E90A4;
+}
+#advanced-search:hover{
+    text-decoration: underline;
+}
+#block-menu-2{
+    width: 840px;
+    height: 205px;
+    border: 1px solid #FFFFFF;
+    margin-top: -1px;
+    margin-left: 80px;
+    border-radius: 10px; 
+    background-color: #FFFFFF;   
+}
+#menu2{
+    width: 838px;
+    height: 45px;
+    border-top: 1px solid #FF9A38;
+    border-left: 1px solid #FF9A38;
+    border-right: 1px solid #FF9A38;
+    border-bottom: 1px solid #A7874C;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(to bottom, #FFC466, #FF9332 50%, #FF5B0F 50%, #FFA143 100%);    
+}
+#menu2 ul{
+    margin-left: 25px;
+}
+#menu2 li{
+    float: left;
+    font: 18px futura;
+    color: #FFFFFF;    
+    margin-right: 55px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#menu2 li.menu2-contact{
+    margin-right: 0;
+}
+#menu2 li:hover{
+    color: #FFC468;
+}
+#menu2-content{
+    border: 1px solid #CFCFCF;
+    border-radius: 0 0 10px 10px;
+    margin-top: 1px;
+    width: 838px;
+    height: 155px;
+    background-color: #E6E6E6;
+}
+#menu2-content-image{
+    float: left;
+    height: 153px;
+    width: 562px;
+    border: 1px solid #6E7882;
+    border-radius: 0 0 0 10px;
+    background-image: url(C:/Users/янык/Desktop/text-page/images/img1.png);    
+}
+#menu2-content-banner{
+    background-color: black;
+    opacity: 0.7;
+    width: 558px;
+    height: 25px;
+    margin-top: 3px;
+}
+#menu2-content-image p{
+    font: 17px century gothic;
+    padding: 0;
+    position: absolute;
+    margin-left: 373px;
+    margin-top: -27px;
+    margin-right: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 2px;    
+}
+#menu2-content-text{
+    float: left;
+    height: 155px;
+    width: 274px;
+    background: linear-gradient(to bottom left, #F9F9F9, #E6E6E6); 
+    border-radius: 0 0 10px 0;    
+}
+#menu2-content-text > p{
+    font: 11px arial;
+    color: #4F4F4F;
+    margin-left: 8px;
+    margin-top: 7px;
+    padding-right: 15px;
+    line-height: 1.3;
+}
+#menu2-content-text > p > a{
+    margin-left: 55px;    
+    color: black;    
+}
+#menu2-content-text > p > a:hover{
+    text-decoration: none;
+}
+#menu2-content-text > ul{
+    margin-left: 8px;
+}
+#menu2-content-text > ul > li{
+    float: left;
+    font: 11px arial;
+    color: black;
+}
+#menu2-content-text > ul > li > span{
+    color: #898989;
+}
+.menu2-comments{
+    margin-left: 73px;
+}
+.menu2-comments > a{
+    color: black;
+}
+.menu2-comments > a:hover{
+    text-decoration: none;
+}
+#menu2-content-text > #pagination{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 13px;
+}
+#pagination li{    
+    float: left;    
+    margin-right: 5px;
+    height: 19px;
+    width: 20px;   
+    border-radius: 5px; 
+    box-shadow: 0px 1px 0px 0px #CBCBCB;
+    background: linear-gradient(to bottom, #FFFFFF, #A4A4A4); 
+    cursor: pointer;   
+}
+#pagination li > a > p{        
+    background: linear-gradient(to bottom, #FFFFFF, #E4E4E4);
+    font: 15px tahoma;    
+    color: #000000;   
+    width: 17px;
+    margin-left: 1px;
+    margin-top: 0px;
+    border-radius: 4px;
+    padding-left: 0;
+    text-align: center; 
+    padding-right: 1px;   
+}
+#pagination li > a > p:hover{
+    background: #FFFFFF;
+}
+#pagination li > a > p:active{
+    background: #E4E4E4;
+}
+
+#leaderboard{
+    width: 730px;
+    height: 92px;    
+    margin: auto;
+    margin-top: 17px;
+    background: url(C:/Users/янык/Desktop/text-page/images/img2.png);
+}
+#block-content-left{
+    width: 579px;
+    height: auto;
+    border: 1px solid white;    
+    margin-top: 17px;
+    border-radius: 8px 0 0 8px;
+    background-color: #FFFFFF;
+    clear: both;
+    float: left;
+    padding-bottom: 1px;   
+}
+#block-content-right{
+    width: 258px;
+    height: 778px;
+    margin-top: 17px;
+    border-left: 1px dashed #C3C3C3;    
+    border-radius: 0 8px 8px 0;
+    background-color: #ECECEC;
+    float: left;            
+}
+#article1{
+    width: 578px;
+    height: 245px;   
+}
+#article1-header{
+    width: 578px;
+    height: 35px;    
+    border-radius: 8px 0 0 8px; 
+    background: linear-gradient(to bottom, #303D45, #141B20);   
+}
+#article1-header2{
+    width: 577px;
+    height: 33px;    
+    border-radius: 8px 0 0 8px; 
+    background: linear-gradient(to bottom, #303D45, #10171A 35%, #10171A 35%, #10171A 60%, #10171A 60%, #202B31 100%);
+    
+}
+#article1-header2 p{
+    margin-top: 0px;
+    padding-top: 9px;
+    padding-left: 12px;
+    font: 23px;    
+    color: white;
+    font-family: tahoma;       
+}
+#article1-content{
+    width: 576px;
+    height: 211px;
+    border: 1px solid #CFCFCF;
+    border-radius: 6px;
+    background-color: #EFEFEF;
+    margin-top: 2px;
+}
+#article1-content-img{
+    width: 190px;
+    height: 173px;
+    border: 1px solid #D9D9D9;
+    background-color: white;
+    border-radius: 9px;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 11px;
+    box-shadow: 0px 0px 1px 2px #E4E4E4;
+    float: left;
+}
+#article1-content-img2{
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 188px;
+    height: 171px;    
+    background: url(C:/Users/янык/Desktop/text-page/images/img3.png);
+    border-radius: 7px;   
+}
+#article1-content > p{
+    margin-top: 18px;
+    margin-right: 12px;
+    font: 12px tahoma;
+    color: #4F4F4F;
+    line-height: 1.1;    
+}
+#article1-content > p > .fontsize{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0.9;    
+}
+#article1-content ul{
+    margin-left: 13px;    
+}
+#article1-content > ul > li{
+    float: left;
+    font: 10px arial;
+    color: #AFAFAF;
+}
+#article1-content > ul > li.by{
+    margin-left: 120px;
+    margin-top: -2px;
+    font-size: 12px;    
+}
+#article1-content > ul > li.by > span{
+    color: #253138;
+}
+#article2{
+    width: 578px;
+    height: 245px;   
+    margin-top: 8px;
+}
+#article2-content-img2{     
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 188px;
+    height: 171px;    
+    background: url(C:/Users/янык/Desktop/text-page/images/img4.png);
+    border-radius: 7px;  
+}
+#other-articles{
+    width: 285px;
+    height: 242px; 
+    margin-top: 8px;
+    margin-left: 1px;    
+    clear: both;
+    float: left; 
+}
+#other-articles-header{
+    width: 287px;
+    height: 35px;    
+    border-radius: 8px; 
+    background: linear-gradient(to bottom, #303D45, #141B20);   
+}
+#other-articles-header2{
+    width: 287px;
+    height: 33px;    
+    border-radius: 8px; 
+    background: linear-gradient(to bottom, #303D45, #10171A 35%, #10171A 35%, #10171A 60%, #10171A 60%, #202B31 100%);
+    
+}
+#other-articles-header2 p{
+    margin-top: 0px;
+    padding-top: 9px;
+    text-align: center;
+    font: 23px;    
+    color: white;
+    font-family: tahoma;       
+}
+#other-articles-content{
+    width: 285px;
+    height: 200px;
+    border: 1px solid #CFCFCF;
+    border-radius: 6px;
+    background-color: #EFEFEF;
+    margin-top: 2px;
+    box-shadow: 0 0 30px 30px #E7E7E7 inset;
+}
+#other-articles-content-img{
+    width: 258px;
+    height: 85px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border: 1px solid #D9D9D9;
+    background-color: white;
+    border-radius: 9px;    
+    box-shadow: 0px 0px 1px 2px #E4E4E4;    
+}
+#other-articles-content-img2{
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 256px;
+    height: 83px;    
+    background: url(C:/Users/янык/Desktop/text-page/images/img5.png);
+    border-radius: 7px;
+}
+#other-articles-content > p{
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-right: 13px;
+    font: 12px tahoma;
+    color: #272727;
+    line-height: 1.1; 
+    text-align: justify;   
+}
+#other-articles-content ul{
+    margin-left: 15px;    
+}
+#other-articles-content > ul > li{
+    float: left;
+    font: 10px arial;
+    color: #AFAFAF;
+    margin-top: -7px;
+}
+#other-articles-content > ul > li.by{
+    margin-left: 40px;
+    margin-top: -9px;
+    font-size: 12px;    
+}
+#other-articles-content > ul > li.by > span{
+    color: #08141B;
+}
+#other-articles-right{
+    width: 283px;
+    height: 242px; 
+    margin-top: 8px;
+    margin-left: 5px;    
+    float: left;    
+}
+#other-articles-right-content-img{
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 256px;
+    height: 83px;    
+    background: url(C:/Users/янык/Desktop/text-page/images/img6.png);
+    border-radius: 7px;
+}
+#block-content-footer{
+    width: 578px;
+    height: 27px;    
+    border-radius: 0 0 0 8px; 
+    background: linear-gradient(to bottom, #303D45, #141B20); 
+    float: left;  
+}
+#block-content-footer2{
+    width: 577px;
+    height: 26px;    
+    border-radius: 0 0 0 8px; 
+    background: linear-gradient(to bottom, #303D45, #10171A 35%, #10171A 35%, #10171A 60%, #10171A 60%, #202B31 100%);    
+}
+#block-content-footer2 > a{
+    font: 11px arial;
+    color: #FFFFFF;
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 7px;
+    margin-left: 14px;    
+}
+#block-content-footer2 > a:hover{
+    text-decoration: none;
+}
+#block-content-footer ul{
+    float: right;
+    margin-top: 3px;
+    
+}
+#block-content-footer li{    
+    float: left;    
+    margin-right: 3px;
+    height: 21px;
+    width: 23px;   
+    border-radius: 7px;    
+    background: linear-gradient(to bottom, #FFFFFF, #A4A4A4); 
+    cursor: pointer;   
+}
+#block-content-footer li > a > p{        
+    background: linear-gradient(to bottom, #FFFFFF, #E4E4E4);
+    font: 14px tahoma;    
+    color: #000000;   
+    width: 20px;
+    height: 19px;
+    margin-left: 1px;
+    margin-top: 0px;
+    border-radius: 6px;
+    padding-left: 1px;
+    padding-top: 1px;
+    text-align: center; 
+    padding-right: 1px;   
+}
+#block-content-footer li > a > p:hover{
+    color: #ADADAD;
+}
+#block-content-footer li > a > p:active{
+    background: #E4E4E4;
+}
+#member{
+    width: 220px;
+    height: 125px;
+    margin: auto;
+    margin-top: 16px;
+    background: url(C:/Users/янык/Desktop/text-page/images/img7.png);    
+}
+.text-over{
+    float: right;
+    font: 25px aglettericacondl;
+    color: #262E36;
+    margin-top: -5px;
+    margin-right: -2px; 
+    margin-bottom: 5px;   
+}
+.text-over > span{
+    color: #FC9A13;
+}
+#form-user{
+    margin-top: 0px;
+}
+#form-user input{
+    width: 208px;
+    height: 28px;
+    border: 1px solid #CDCDCD;
+    border-radius: 6px;
+    margin-bottom: 7px;
+    background-color: #D8D8D8;
+    opacity: 0.7;
+    font: 14px tahoma;
+    padding-left: 10px; 
+    padding-top: 0;       
+}
+::-webkit-input-placeholder {color:#000000;}
+::-moz-placeholder          {color:#000000;}
+
+#form-user input#login{
+    float: right;
+    height: 20px;
+    width: 75px;
+    border-radius: 5px;
+    padding: 0;
+    padding-bottom: 2px;
+    font: 14px tahoma;
+    color: #FEFEFE;
+    background: linear-gradient(to bottom, #303D45, #10171A 35%, #10171A 35%, #10171A 60%, #10171A 60%, #202B31 100%);
+    opacity: 1;
+    border: 0; 
+    cursor: pointer;
+}
+#form-user input#login:active{
+    background: #303D45;
+}
+#member > ul{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+#member > ul > li{
+    float: left;
+    margin-left: 4px;
+    font: 13px tahoma;
+}
+#member > ul > li > p{
+    margin: 0;
+    
+}
+#member > ul > li > p > a{
+    text-decoration: none;
+    color: #A8A8A8;
+}
+#member > ul > li > p > a.register{
+    color: #10171B;
+}
