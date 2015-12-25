@@ -31,13 +31,24 @@ body{
 #logo{
     margin-left: 95px;
     margin-top: 32px;
+    width: 180px;
+    height: 40px;    
+    font: 26px futura;
+    color: #FFFFFF;
+}
+#logo span{
+    background: linear-gradient(#FFD681, #FFB504 50%, #FFB504 50%, #FFD681 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
 }
 #menu1{
-    float: right;
-    margin-right: 100px;
-    margin-top: 14px;
+    position: absolute;    
+    margin-left: 715px;
+    margin-top: -60px;
 }
 #menu1 li{
+    
     float: left;
     font: 12px sans-serif;
     color: #304653;
@@ -154,7 +165,7 @@ body{
     width: 562px;
     border: 1px solid #6E7882;
     border-radius: 0 0 0 10px;
-    background-image: url(C:/Users/янык/Desktop/text-page/images/img1.png);    
+    background-image: url(C:/WebServers/test-page/images/img1.png);    
 }
 #menu2-content-banner{
     background-color: black;
@@ -255,7 +266,7 @@ body{
     height: 92px;    
     margin: auto;
     margin-top: 17px;
-    background: url(C:/Users/янык/Desktop/text-page/images/img2.png);
+    background: url(C:/WebServers/test-page/images/img2.png);
 }
 #block-content-left{
     width: 579px;
@@ -266,7 +277,8 @@ body{
     background-color: #FFFFFF;
     clear: both;
     float: left;
-    padding-bottom: 1px;   
+    padding-bottom: 1px;  
+    margin-bottom: 10px; 
 }
 #block-content-right{
     width: 258px;
@@ -275,7 +287,7 @@ body{
     border-left: 1px dashed #C3C3C3;    
     border-radius: 0 8px 8px 0;
     background-color: #ECECEC;
-    float: left;            
+    float: left;              
 }
 #article1{
     width: 578px;
@@ -327,7 +339,7 @@ body{
     margin-top: 1px;
     width: 188px;
     height: 171px;    
-    background: url(C:/Users/янык/Desktop/text-page/images/img3.png);
+    background: url(C:/WebServers/test-page/images/img3.png);
     border-radius: 7px;   
 }
 #article1-content > p{
@@ -368,7 +380,7 @@ body{
     margin-top: 1px;
     width: 188px;
     height: 171px;    
-    background: url(C:/Users/янык/Desktop/text-page/images/img4.png);
+    background: url(C:/WebServers/test-page/images/img4.png);
     border-radius: 7px;  
 }
 #other-articles{
@@ -424,7 +436,7 @@ body{
     margin-top: 1px;
     width: 256px;
     height: 83px;    
-    background: url(C:/Users/янык/Desktop/text-page/images/img5.png);
+    background: url(C:/WebServers/test-page/images/img5.png);
     border-radius: 7px;
 }
 #other-articles-content > p{
@@ -465,7 +477,7 @@ body{
     margin-top: 1px;
     width: 256px;
     height: 83px;    
-    background: url(C:/Users/янык/Desktop/text-page/images/img6.png);
+    background: url(C:/WebServers/test-page/images/img6.png);
     border-radius: 7px;
 }
 #block-content-footer{
@@ -531,7 +543,7 @@ body{
     height: 125px;
     margin: auto;
     margin-top: 16px;
-    background: url(C:/Users/янык/Desktop/text-page/images/img7.png);    
+    background: url(C:/WebServers/test-page/images/img7.png);    
 }
 .text-over{
     float: right;
@@ -539,14 +551,12 @@ body{
     color: #262E36;
     margin-top: -5px;
     margin-right: -2px; 
-    margin-bottom: 5px;   
+    margin-bottom: 7px;           
 }
 .text-over > span{
     color: #FC9A13;
 }
-#form-user{
-    margin-top: 0px;
-}
+
 #form-user input{
     width: 208px;
     height: 28px;
@@ -599,4 +609,145 @@ body{
 }
 #member > ul > li > p > a.register{
     color: #10171B;
+}
+#categories{
+    width: 220px;
+    height: 297px;
+    margin: auto;
+    margin-top: 19px;           
+}
+#categories > ul > li{
+    width: 218px;
+    height: 28px;
+    border: 1px solid #D6D6D6;
+    background-color: #E1E1E1;
+    float: left;
+    margin-top: 4px;
+}
+#category-list{
+    margin-top: 26px;
+    position: absolute;
+}
+.category-link{
+    display: block;
+    width: 208px;
+    height: 23px;
+    border: 1px solid #D6D6D6;
+    background-color: #E1E1E1;    
+    margin-top: 4px;
+    text-decoration: none;
+    font: 14px tahoma;
+    color: #4F4F4F;
+    text-align: right;
+    padding-top: 5px;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.category-link:hover{
+    background-color: #E7E7E7; 
+    color: black;
+}
+#archives{
+    width: 220px;
+    height: 161px;
+    margin: auto;
+    margin-top: 20px;
+}
+#newsletter{
+    width: 220px;
+    height: 94px;
+    margin: auto;
+    margin-top: 21px; 
+    background: url(C:/WebServers/test-page/images/img8.png);   
+}
+#form-rss input{
+    width: 208px;
+    height: 28px;
+    border: 1px solid #CDCDCD;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    background-color: #D8D8D8;
+    opacity: 0.7;
+    font: 14px tahoma;
+    padding-left: 10px; 
+    padding-top: 0;       
+}
+#form-rss input#submit{
+    float: right;
+    height: 20px;
+    width: 75px;
+    border-radius: 5px;
+    padding: 0;
+    padding-bottom: 2px;
+    font: 14px tahoma;
+    color: #FEFEFE;
+    background: linear-gradient(to bottom, #303D45, #10171A 35%, #10171A 35%, #10171A 60%, #10171A 60%, #202B31 100%);
+    opacity: 1;
+    border: 0; 
+    cursor: pointer;
+}
+#form-rss input#submit:active{
+    background: #303D45;
+}
+
+#block-footer{
+    width: 100%;
+    height: 112px;
+    background-color: #121A1E;
+    clear: both;
+    border-radius: 8px 8px 0 0;
+    margin-top: 10px;
+     
+}
+#block-footer > p{
+    font: 23px;    
+    color: white;
+    font-family: tahoma; 
+    position: absolute;  
+    margin-top: 1s7px; 
+    margin-left: 17px;    
+    width: 130px;
+}
+#tags{
+    width: 445px;
+    height: 50px;    
+    margin-left: 17px;
+    margin-top: 46px;
+    position: absolute;
+}
+#tags a{
+    display: block;    
+    background-color: #070A0C;    
+    text-decoration: none;
+    font: 11px tahoma;
+    color: #41718D;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 7px; 
+    margin-bottom: 8px;   
+}
+#tags a:hover{
+    background-color: #101315;     
+}
+#footer-p{
+    position: absolute;    
+    font: 13px tahoma;
+    color: #414F57;    
+    width: 270px;
+    float: right;
+    margin-left: 541px;
+    margin-top: 55px;
+}
+#footer-p a{
+    color: #41718D;
+    text-decoration: none;
+}
+#footer-p a:hover{
+    color: #5787A3;
+    border-bottom: 1px dashed #5787A3;
+}
+.link-first{
+    margin-left: 6px;
 }
