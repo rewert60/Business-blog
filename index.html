@@ -1,21 +1,23 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-
-	<title>Test-page</title>
+    <link href="css/media-queries.css" rel="stylesheet" media="screen and (min-width:100px) and (max-width:1024px)"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Bussiness-blog</title>
 </head>
-
 <body>
-<div id="top-gradient">
+
+<div id="top-gradient"></div>
 <div id="page">
 <div id="block-main">
-
-<div id="logo"> Bussiness <span>Blog</span></div>
-
-<ul align="right" id="menu1">
+<div id="nav-icon"><img src="/images/nav-icon.png"/></div>
+<div id="logo"> Business <span>Blog</span></div>
+<ul id="menu1">
 <li>::</li>
 <li class="home"><a>Home</a></li>
 <li>::</li>
@@ -23,26 +25,21 @@
 <li>::</li>
 <li><a>Contact Us</a></li>
 </ul>
-
-<form id="form-search" align="right">
-<input type="text" id="input-search"placeholder="Search term..." />
+<form id="form-search">
+<input type="text" id="input-search" placeholder="Search term..." />
 <input type="submit" value="GO"/>
 <p id="advanced"><a href="" id="advanced-search">Advanced Search</a></p>
 </form>
-
 <div id="block-menu-2">
 <div id="menu2">
-<ul>
-<li><a>Home</a></li>
-<li><a>About Us</a></li>
-<li><a>Internet</a></li>
-<li><a>Make Money</a></li>
-<li><a>Forums</a></li>
-<li><a>Links</a></li>
-<li class="menu2-contact"><a>Contact</a></li>
-</ul>
+<a>Home</a>
+<a>About Us</a>
+<a>Internet</a>
+<a>Make Money</a>
+<a>Forums</a>
+<a>Links</a>
+<a class="contacts">Contact</a>
 </div>
-
 <div id="menu2-content">
 <div id="menu2-content-image">
 <div id="menu2-content-banner">
@@ -55,8 +52,7 @@ elit. Vestibulum id hendrerit augue. Integer nisl elit,
 sollicitudin tincidunt iaculis id, iaculis nec lacus.
 Vestibulum ante ipsum primis in faucibus orci luctus
 et ultrices posuere cubilia Curae; Aliquam arcu
-turpis. Integer nisl elit, sollicit.<a href="">Read more</a></p>
-
+turpis. Integer nisl elit, sollicit.<a href="">Read More</a></p>
 <ul>
 <li><span>Author:</span> GFXsupport</li>
 <li class="menu2-comments">Comments (<a href="">18</a>)</li>
@@ -71,22 +67,18 @@ turpis. Integer nisl elit, sollicit.<a href="">Read more</a></p>
 </ul>
 </div>
 </div>
-
-
-<div id="leaderboard"></div>
+<div id="leaderboard"><img src="/images/img2.png"/></div>
 <div id="block-content-left">
 <div id="article1">
-<div id="article1-header">
-<div id="article1-header2">
-<p>How to stack up to competitive bussiness owners</p>
+<div class="article-header">
+<div class="article-header2">
+<a href="">How to stack up to competitive business owners</a>
 </div>
 </div>
-
-<div id="article1-content">
-<div id="article1-content-img">
-<div id="article1-content-img2"></div>
+<div class="article-content">
+<div class="article-content-img">
+<div id="article1-content-img2"><img src="/images/img3.png"/></div>
 </div>
-
 <p><span class="fontsize">Lorem ipsum dolor sit amet, consectetur adipiscing 
 elit. Vestibulum id hendrerit augue. Integer 
 nisl elit,</span> sollicitudin tincidunt iaculis id, iaculis nec lacus. 
@@ -104,19 +96,16 @@ varius. Pellentesque tempus accumsan enim et adipiscing.</p>
 </ul>
 </div>
 </div>
-
 <div id="article2">
-<div id="article1-header">
-<div id="article1-header2">
-<p>How online marketing is today's new way to make it big</p>
+<div class="article-header">
+<div class="article-header2">
+<a href="">How online marketing is today's new way to make it big</a>
 </div>
 </div>
-
-<div id="article1-content">
-<div id="article1-content-img">
-<div id="article2-content-img2"></div>
+<div class="article-content">
+<div class="article-content-img">
+<div id="article2-content-img2"><img src="/images/img4.png"/></div>
 </div>
-
 <p><span class="fontsize">Lorem ipsum dolor sit amet, consectetur adipiscing 
 elit. Vestibulum id hendrerit augue. Integer 
 nisl elit,</span> sollicitudin tincidunt iaculis id, iaculis nec lacus. 
@@ -134,55 +123,53 @@ varius. Pellentesque tempus accumsan enim et adipiscing.</p>
 </ul>
 </div>
 </div>
+
 
 <div id="other-articles">
-<div id="other-articles-header">
-<div id="other-articles-header2">
-<p>Should you ever cash out?</p>
+<div class="other-articles-header">
+<div class="other-articles-header2">
+<a href="">Should you ever cash out?</a>
 </div>
 </div>
-<div id="other-articles-content">
-<div id="other-articles-content-img">
+<div class="other-articles-content">
+<div class="other-articles-content-img">
 <div id="other-articles-content-img2"></div>
 </div>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit. Vestibulum id hendrerit augue. Integer 
-nisl elit, sollicitudin tincidunt iaculis id, iaculis nec lacus. 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
-posuere...</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipi-
+scing elit. Vestibulum id hendrerit augue. Inte-
+ger nisl elit, sollicitudin tincidunt iaculis id, iaculis 
+nec lacus. Vestibulum ante ipsum primis in faucibus orci luctus et 
+ultrices posuere cubilia...</p>
 <ul>
 <li>Saturday, March 13th, 2010</li>
 <li class="by">By: <span>GFXsupport</span></li>
 </ul>
 </div>
 </div>
-
 <div id="other-articles-right">
-<div id="other-articles-header">
-<div id="other-articles-header2">
-<p>Choosing an office setting</p>
+<div class="other-articles-header">
+<div class="other-articles-header2">
+<a href="">Choosing a office setting</a>
 </div>
 </div>
-<div id="other-articles-content">
-<div id="other-articles-content-img">
+<div class="other-articles-content">
+<div class="other-articles-content-img">
 <div id="other-articles-right-content-img"></div>
 </div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit. Vestibulum id hendrerit augue. Integer 
-nisl elit, sollicitudin tincidunt iaculis id, iaculis nec lacus. 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
-posuere...</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipi-
+scing elit. Vestibulum id hendrerit augue. Inte-
+ger nisl elit, sollicitudin tincidunt iaculis id, iaculis 
+nec lacus. Vestibulum ante ipsum primis in faucibus orci luctus et 
+ultrices posuere cubilia...</p>
 <ul>
 <li>Saturday, March 13th, 2010</li>
 <li class="by">By: <span>GFXsupport</span></li>
 </ul>
 </div>
 </div>
-
 <div id="block-content-footer">
 <div id="block-content-footer2">
-<a href="">View articles</a>
+<a href="">View Articles</a>
 <ul>
 <li><a><p>1</p></a></li>
 <li><a><p>2</p></a></li>
@@ -192,9 +179,7 @@ posuere...</p>
 </div>
 </div>
 </div>
-
 <div id="block-content-right">
-
 <div id="member">
 <p class="text-over">MEMBER <span>LOGIN</span></p>
 <form id="form-user">
@@ -208,10 +193,11 @@ posuere...</p>
 <li><p><a href="">Forgot Pass</a></p></li>
 </ul>
 </div>
-
 <div id="categories">
-<p class="text-over">BLOG <span>CATEGORIES</span></p>
-<div id="category-list">
+<p class="text-over" id="blog-categories">BLOG <span>CATEGORIES</span></p>
+
+
+<div class="category-list" id="category-list">
 <a class="category-link" href="">Make Money Online</a>
 <a class="category-link" href="">Online Marketing</a>
 <a class="category-link" href="">Advertising / Publishing</a>
@@ -221,18 +207,18 @@ posuere...</p>
 <a class="category-link" href="">Rants and Raves</a>
 <a class="category-link" href="">Uncategorized Articles</a>
 </div>
-</div>
 
+
+</div>
 <div id="archives">
-<p class="text-over">BLOG <span>ARCHIVES</span></p>
-<div id="category-list">
-<a class="category-link" href="">March 2010 Archives</a>
-<a class="category-link" href="">February 2010 Archives</a>
-<a class="category-link" href="">January 2010 Archives</a>
-<a class="category-link" href="">December 2009 Archives</a>
+<p class="text-over" id="blog-archives">BLOG <span>ARCHIVES</span></p>
+<div class="category-list" id="archives-list">
+<a class="category-link" href="">March 2010 Articles</a>
+<a class="category-link" href="">February 2010 Articles</a>
+<a class="category-link" href="">January 2010 Articles</a>
+<a class="category-link" href="">December 2009 Articles</a>
 </div>
 </div>
-
 <div id="newsletter">
 <p class="text-over">RSS <span>NEWSLETTER</span></p>
 <form id="form-rss">
@@ -240,9 +226,7 @@ posuere...</p>
 <input type="submit" id="submit" value="Submit"/>
 </form>
 </div>
-
 </div>
-
 <div id="block-footer">
 <p>Top Article Tags</p>
 <div id="tags">
@@ -258,24 +242,16 @@ posuere...</p>
 <a href="">money</a>
 <a href="">marketing</a>
 <a href="">money</a>
-<a href="">marketing</a>
 <a href="">money</a>
 <a href="">marketing</a>
+<a href="">money</a>
 </div>
-<div id="footer-p">&copy; <strong>Bussiness Blog</strong> 2010. All rights reserved.<br />
+<div id="footer-p">&copy; <strong>Business Blog</strong> 2010. All rights reserved.<br />
 <a href="" class="link-first">Home</a> | <a href="">Sitemap</a> | <a href="">Contuct Us</a> | <a href="">Advertise</a></div>
 </div>
-
-
 </div>
-
-
-
-
-
 </div>
 </div>
 <div id="bottom-background"></div>
-
 </body>
 </html>
