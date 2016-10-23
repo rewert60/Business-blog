@@ -199,7 +199,7 @@ body{
     width: 561px;
     border: 1px solid #6E7882;
     border-radius: 0 0 0 10px;
-    background-image: url(/images/img1.png);    
+    background-image: url("../images/img1.png");    
 }
 #menu2-content-banner{
     background-color: black;
@@ -422,7 +422,7 @@ body{
     margin-top: 1px;
     width: 188px;
     height: 171px;    
-    background: url(/images/img4.png);
+    background: url("../images/img4.png");
     border-radius: 7px;  
 }
 #other-articles{
@@ -481,7 +481,7 @@ body{
     margin-top: 1px;
     width: 256px;
     height: 83px;    
-    background: url(/images/img5.png);
+    background: url("../images/img5.png");
     border-radius: 7px;
 }
 .other-articles-content > p{
@@ -521,7 +521,7 @@ body{
     margin-top: 1px;
     width: 256px;
     height: 83px;    
-    background: url(/images/img6.png);
+    background: url("../images/img6.png");
     border-radius: 7px;
 }
 #block-content-footer{
@@ -585,7 +585,7 @@ body{
     height: 125px;
     margin-left: 19px;
     margin-top: 16px;
-    background: url(/images/img7.png);    
+    background: url("../images/img7.png");    
 }
 .text-over{
     float: right;
@@ -695,7 +695,7 @@ body{
     height: 94px;
     margin-left: 19px;
     margin-top: 19px; 
-    background: url(/images/img8.png);   
+    background: url("../images/img8.png");   
 }
 #form-rss input{
     width: 202px;
